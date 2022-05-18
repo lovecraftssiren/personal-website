@@ -1,0 +1,7 @@
+Favicon: https://formito.com/tools/favicon
+  Font: Oleo Script
+
+Email: https://www.flaticon.com/premium-icon/email_3178165?related_id=3178165
+Linkedin: https://www.flaticon.com/packs/social-media-logos-5
+Google Scholar: https://icons8.com/icon/okYCvWotC0uX/google-scholar
+Instagram: https://www.flaticon.com/packs/social-media-logos-5
