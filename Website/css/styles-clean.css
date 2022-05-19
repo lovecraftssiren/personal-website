@@ -95,8 +95,9 @@ a, a:hover, a:focus, a:active {
 }
 
 .home-header {
+
   width: 100%;
-  max-height: 500px;
+  max-height: 550px;
   min-height: 200px;
 
   display: flex;
@@ -111,28 +112,41 @@ a, a:hover, a:focus, a:active {
   justify-content: center;
   align-items: center;
 
-  max-width: 40%;
+  max-width: 35%;
   height: 100%;
 }
 
 .picture-case{
-  margin: 5px;
-  margin-left: 4%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 1%;
+
+  max-height: 90%;
+  max-width: 100%;
+
 }
 
 .picture{
   border-radius: 50%;
   border: 4px solid rgb(92, 92, 92);
 
-  max-height: 90%;
-  max-width: min(98%,30vw);
-  width: 98%
+
+  width: 98%;
+  max-width: 500px;
+  max-height: 500px;
+
+  margin-right: -10%;
 }
 
 .name-and-title{
-  width: 60%;
+
+
+  width: 70%;
   height: 100%;
-  margin-left: -4%;
+  margin-left: 5%;
+  padding-bottom: 4%;
 
   display: flex;
   justify-content: center;
@@ -142,10 +156,7 @@ a, a:hover, a:focus, a:active {
 }
 
 .name{
-  margin-top: 3%;
-  margin-bottom: -2.5%;
-
-  height: 80%;
+  height: 100%;
   width: 100%;
 
   display: flex;
@@ -156,26 +167,21 @@ a, a:hover, a:focus, a:active {
 
 .first{
   margin-left: -18%;
-  max-height: min(14vw,75%);
-  width: 60%;
+  min-height: 35%;
 }
 
 .last{
-  margin-left: 18%;
-  max-height: min(18vw,95%);
-  width: 70%;
+  margin-left: 20%;
+  min-height: 45%;
 }
 
 .title{
-
-
-  height: 20%;
+  max-height: 20%;
   width: 100%;
-  margin-top: 10%;
 
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
   flex-direction: row;
   flex-wrap: wrap;
 }
@@ -183,4 +189,10 @@ a, a:hover, a:focus, a:active {
 .title-text{
   font-family: 'Roboto Flex', sans-serif;
   font-size: min(3.25vw,180%);
+}
+
+.bio {
+  height: 200px;
+  width: 100%;
+
 }
