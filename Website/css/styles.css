@@ -119,7 +119,7 @@ a, a:hover, a:focus, a:active {
 }
 
 .picture-case{
-  margin: 4px;
+  margin: 5px;
   margin-left: 4%;
 }
 
@@ -129,5 +129,5 @@ a, a:hover, a:focus, a:active {
 
   max-height: 250px;
   max-width: 250px;
-  width: 100%
+  width: 98%
 }
